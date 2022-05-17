@@ -164,13 +164,13 @@ body {
 
 .top-menu-wrap a,
 .main-menu a {
-    transition: color 0.2s ease;
+    /* transition: color 0.2s ease; */
 }
-
+/*
 .top-menu-wrap a:hover,
 .main-menu a:hover {
     color: #ff3737;
-}
+} */
 
 .top-right-menu,
 .top-left-menu {
@@ -185,11 +185,11 @@ body {
     margin-right: 30px;
 }
 
-.top-right-menu:hover * {
+.top-right-menu li:hover  {
     fill: #ff3737;
     color: #ff3737;
     cursor: pointer;
-    transition: none;
+    transition: color 0.2s ease;
 }
 
 .icon {
