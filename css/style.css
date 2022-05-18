@@ -516,25 +516,24 @@ a.btn-red {
     display: inline-block;
 }
 
-.offer-grey {
+.grey {
     min-height: 515px;
     background-color: #f7f7f7;
-    margin-bottom: 50px;
 }
 
-.offer-grey-row {
+.grey-row {
     padding: 50px 0;
     display: flex;
     align-items: center;
 }
 
-.offer-grey-row div {
+.grey-row div {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
 
-.offer-grey-row a {
+.grey-row a {
     color: #e55241;
     font-weight: bold;
     font-size: 20px;
@@ -542,6 +541,12 @@ a.btn-red {
     display: flex;
     align-items: center;
     flex-direction: row;
+}
+
+.grey-row .heading {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
 }
 
 .boxes {
@@ -582,7 +587,7 @@ a.btn-red {
 
 .news {
     background-color: #ffffff;
-    height: 715px;
+    height: 660px;
 }
 
 .news-heading,
@@ -681,6 +686,7 @@ a.btn-red {
 .news-columns {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .director-column {
@@ -716,4 +722,37 @@ a.btn-red {
     display: flex;
     align-items: center;
     margin-right: 10px;
+}
+
+.white {
+    min-height: 515px;
+    background-color: #ffffff;
+}
+
+.white-row {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.white-row div {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.white-row a {
+    color: #e55241;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.white-row .heading {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
 }
