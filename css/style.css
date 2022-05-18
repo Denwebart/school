@@ -603,7 +603,7 @@ a.btn-red {
 
 .news-column {
     display: flex;
-    min-height: 509px;
+    height: auto;
     width: 381px;
     box-shadow: -5px 0 10px rgba(190, 190, 190, 0.25), 5px 5px 10px rgba(190, 190, 190, 0.25);
     border-radius: 10px;
