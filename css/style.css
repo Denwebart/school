@@ -77,10 +77,6 @@ p {
     line-height: inherit;
 }
 
-p + p {
-    margin-top: 1em;
-}
-
 ul {
     list-style: none;
 }
@@ -162,14 +158,10 @@ body {
     padding-bottom: 20px;
 }
 
-.top-menu-wrap a,
-.main-menu a {
-    /* transition: color 0.2s ease; */
-}
-
 .top-menu-wrap a:hover,
 .main-menu a:hover {
     color: #ff3737;
+    transition: color 0.2s ease;
 }
 
 .top-right-menu,
@@ -185,7 +177,7 @@ body {
     margin-right: 30px;
 }
 
-.top-right-menu li:hover  {
+.top-right-menu li:hover {
     fill: #ff3737;
     color: #ff3737;
     cursor: pointer;
@@ -755,4 +747,66 @@ a.btn-red {
     font-weight: bold;
     font-size: 32px;
     line-height: 48px;
+}
+
+.about-project {
+    display: flex;
+    padding-top: 60px;
+}
+
+.about-project-img img {
+    display: flex;
+    min-width: 584px;
+    min-height: auto;
+    border-radius: 10px;
+}
+
+.about-project-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 28px;
+}
+
+.about-project-content h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E222E;
+}
+
+.about-project-content h2 + p {
+    padding-top: 41px;
+    padding-bottom: 15px;
+}
+
+.about-project-content p {
+    line-height: 24px;
+    color: #3A3E48;
+}
+
+.about-us-btn {
+    padding-top: 22px;
+}
+
+.about-us-btn a {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #ffffff;
+    height: 65px;
+    padding: 21px 50px;
+    background-color: #E55241;
+    border-radius: 4px;
+    width: 380px;
+}
+
+.about-us-btn svg path {
+    fill: #ffffff;
+}
+
+.about-us-btn a span {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
 }
