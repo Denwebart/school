@@ -259,7 +259,6 @@ a.btn {
 .btn-red,
 a.btn-red {
     background-color: #e55241;
-    width: 196px;
     color: #ffffff;
 }
 
@@ -810,3 +809,121 @@ a.btn-red {
     align-items: center;
     margin-right: 10px;
 }
+
+.info-form {
+    display: flex;
+    margin-top: 70px;
+}
+
+.block-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 593px;
+    height: 289px;
+    background: #F4F4F4;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.block-info img {
+    width: 43px;
+    height: 49px;
+    margin-right: 15px;
+}
+
+.block-info h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    color: #3A3E48;
+}
+
+.block-info p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3A3E48;
+}
+
+.block-info span {
+    color: #E55241;
+    font-weight: bold;
+}
+
+.block-form {
+    display: flex;
+    margin-left: 30px;
+    width: 593px;
+    height: 289px;
+}
+
+.block-form input {
+    display: flex;
+    padding: 20px 15px;
+    background: #FFFFFF;
+    width: 282px;
+    height: 64px;
+
+    border: 1px solid #DBDFEC;
+    border-radius: 5px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.captcha-block {
+    display: flex;
+    padding-left: 15px;
+}
+
+.captcha {
+    display: flex;
+    background: #DBDFEC;
+    border-radius: 5px 0 0 5px;
+    width: 77px;
+    height: auto;
+    padding: 20px 15px;
+}
+
+.captcha span {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E222E;
+}
+
+.form-row .captcha-input {
+    width: 205px;
+    height: 64px;
+    border-radius: 0 5px 5px 0;
+}
+
+.form-row-agree {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+    margin-top: 15px;
+}
+
+.form-row-agree label {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E222E;
+ }
+
+/* Checkbox styling */
+
+input.checkbox {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/* Checkbox styling END */
