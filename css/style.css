@@ -716,7 +716,7 @@ a.btn-red {
 }
 
 .white {
-    min-height: 515px;
+    padding-bottom: 80px;
     background-color: #ffffff;
 }
 
@@ -914,7 +914,7 @@ a.btn-red {
     font-size: 16px;
     line-height: 20px;
     color: #1E222E;
- }
+}
 
 /* Checkbox styling */
 
@@ -927,3 +927,146 @@ input.checkbox {
 }
 
 /* Checkbox styling END */
+
+.footer {
+    background-color: #272727;
+}
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    min-height: 296px;
+    position: relative;
+}
+
+/* Footer START */
+
+.footer-logo {
+    display: flex;
+}
+
+.footer-links {
+    margin-left: 136px;
+}
+
+.footer-links {
+    width: 220px;
+    height: 176px;
+}
+
+.footer-links li {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-bottom: 2px solid #2F2F2F;
+    margin-top: 10px;
+}
+
+.footer-links a,
+.footer-links svg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links li a svg {
+    margin-left: auto;
+}
+
+.social-block {
+    display: flex;
+    width: 220px;
+    height: 176px;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.social-block-row {
+    display: flex;
+    justify-content: right;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    background: #373737;
+    border-radius: 4px;
+}
+
+.social-block-row > a:nth-child(1) > div:nth-child(1) {
+    margin-left: 0;
+}
+
+.youtube {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: center;
+    width: 156px;
+    height: 32px;
+    background-color: #E62117;
+    margin-top: 20px;
+}
+
+.youtube a {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.youtube span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+
+span.counter {
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #AFB2C4;
+    padding: 7px;
+}
+
+.email a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.copyright {
+    background-color: #202020;
+}
+
+.copyright-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    min-height: 50px;
+}
+
+.separator {
+    margin: 0 10px;
+}
+
+.copyright-row a:hover {
+    text-decoration: underline;
+}
+
+/* Footer END */
