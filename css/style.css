@@ -942,7 +942,7 @@ input.checkbox {
   align-items: center;
   min-height: 296px;
   position: relative;
-  background-image: url("./img/map.png");
+  background-image: url("../img/map.png");
   background-repeat: no-repeat;
   background-position: 340px 83px;
   background-size: 204px 122px;
