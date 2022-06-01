@@ -1118,7 +1118,7 @@ span.counter {
     padding: 0 20px;
 }
 
-.info-link {
+a.info-link {
     font-weight: bold;
     font-size: 18px;
     line-height: 24px;
