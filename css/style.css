@@ -1160,6 +1160,7 @@ a.info-link {
     border-bottom: 1px solid #DBDFEC;
     border-radius: 0 0 10px 10px;
     padding: 20px 15px 10px 15px;
+    height: 170px;
 }
 
 .block-content a {
