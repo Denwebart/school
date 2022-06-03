@@ -1151,13 +1151,14 @@ a.info-link {
 }
 
 .block:hover {
-    box-shadow: -5px 0 10px rgba(190, 190, 190, 0.25);
+    box-shadow: -5px 0 10px rgba(190, 190, 190, 0.25), 5px 5px 10px rgba(190, 190, 190, 0.25);
+    border: none;
 }
 
 .block-content {
-    border-left: 1px solid #DBDFEC;
-    border-right: 1px solid #DBDFEC;
-    border-bottom: 1px solid #DBDFEC;
+    border-left: 1px solid #dbdfec;
+    border-right: 1px solid #dbdfec;
+    border-bottom: 1px solid #dbdfec;
     border-radius: 0 0 10px 10px;
     padding: 20px 15px 10px 15px;
     height: 170px;
@@ -1167,7 +1168,11 @@ a.info-link {
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
-    color: #1E222E;
+    color: #1e222e;
+}
+
+.block-content a:hover {
+    color: #E55241;
 }
 
 .block-content span {
@@ -1176,5 +1181,44 @@ a.info-link {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    color: #1E222E;
+    color: #1e222e;
 }
+
+/* Pagination START */
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    margin: 40px auto 70px auto;
+}
+
+.pagination-list {
+    display: flex;
+    gap: 10px;
+}
+
+.pagination-list li a {
+    border: 1px solid #DBDFEC;
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+
+.pagination-list > li > a > svg {
+    margin-top: 5px;
+}
+
+.pagination-list li.current > a {
+    background-color: #E55241;
+    color: #ffffff;
+}
+
+.pagination-list li a:hover {
+    background-color: #E55241;
+    color: #ffffff;
+}
+
+.pagination-list li a svg:hover {
+    fill: #ffffff;
+}
+
+/* Pagination END */
