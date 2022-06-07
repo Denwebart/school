@@ -11,7 +11,9 @@
 </head>
 
 <body>
+    <!-- NG: Good use of the header tag -->
     <header>
+        <!-- NG: I think bg-gray and container can be combined into one div.  You can use more than one class name on an HTML element -->
         <div class="bg-gray">
             <div class="container">
                 <div class="top-menu-wrap">
@@ -75,6 +77,7 @@
             </div>
         </div>
         <!-- main menu wrap-->
+        <!-- NG:  combine box-shadow and container divs into one element --> 
         <div class="box-shadow">
             <div class="container">
                 <div class="main-menu-wrap">
@@ -90,6 +93,7 @@
                         </ul>
                     </nav>
                     <button class="btn-search" name="search">
+                        
                         <img src="img/icons/icon-search.svg" alt="Search" />
                     </button>
                     <a href="#" class="btn-transparent">Оценить шансы</a>
@@ -101,6 +105,7 @@
     </header>
 
     <main>
+        <!-- NG: Combine home, container, and home-content into one section element -->
         <section class="home">
             <div class="container">
                 <div class="home-content">
@@ -136,6 +141,8 @@
                 </div>
             </div>
         </section>
+        
+         <!-- NG: Combine offer and container into one element -->
         <section class="offer">
             <div class="container">
                 <div class="offer-row">
@@ -152,6 +159,7 @@
                 </div>
                 <div class="cards">
                     <div class="card">
+                         <!-- NG: Good class names for cards these are very well structured -->
                         <a href="#"><img src="img/image-card-1.jpg" alt="Image card 1" /></a>
                         <div class="card-content">
                             <a href="#" class="card-link">Консультация по&nbsp;иммиграции или учебе</a>
@@ -228,6 +236,7 @@
                 </div>
             </div>
         </section>
+       <!-- NG: Combine grey and container last comment like this.  -->
         <section class="grey">
             <div class="container">
                 <div class="grey-row">
@@ -269,6 +278,7 @@
                 </div>
             </div>
         </section>
+        <!-- NG: Combine section.new and div.container into one element -->
         <section class="news">
             <div class="container">
                 <div class="news-columns">
