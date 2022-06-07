@@ -1,3 +1,7 @@
+/* NG: Use css variables for colors at the top */
+/* NG: Put reset styles in separate page so it's easier to include in multiple pages and does not clutter your styles */
+/* NG: Consider Breaking the css into mutliple css files so you can re use the styles easier on multiple page */
+/* NG: Create general class like row that you can use for all your flex box needs */
 /* Connecting fonts */
 @font-face {
     font-family: "Proxima Nova";
